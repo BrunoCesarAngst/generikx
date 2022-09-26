@@ -9,6 +9,14 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
+# Get a full fake REST API
+# Install JSON Server
+
+❯ npm install -g json-server
+❯ cd www/generkx
+❯ cd static
+❯ json-server --watch --port 3005 db.json
+
 # build for production and launch server
 $ yarn build
 $ yarn start
